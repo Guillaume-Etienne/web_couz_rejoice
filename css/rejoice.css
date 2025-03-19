@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    max-width: 1280px;
+    margin: 20px auto;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1 {
+    display: none;
+}
+.header-pc img{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    display: none;
+}
+
+.logo {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #000;
+}
+
+.quote {
+    font-style: italic;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    color: #333;
+}
+
+.quote-author {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 0.5rem;
+}
+
+.mission-statement {
+    background: #f0f0f0;
+    padding: 2rem;
+    text-align: center;
+}
+
+.mission-title {
+    color: #8B0000;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.container {
+    display: flex;
+    position: relative;
+}
+
+.main-text {
+    flex: 1;
+}
+
+.decorative-sidebar {
+    width: 120px;
+    
+}
+#photo_lp {
+    width: 160px;
+    height: 200px;
+    object-fit: cover;
+}
+.biography {
+    margin-bottom: 2rem;
+}
+
+.profile-image {
+    float: right;
+    margin: 0 0 1rem 1rem;
+    max-width: 200px;
+    border-radius: 5px;
+}
+
+.highlight {
+    background: #f0f0f0;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.engagement {
+    color: #8B0000;
+    font-style: italic;
+    font-weight: bold;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.tax-info {
+    font-style: italic;
+    margin-top: 2rem;
+}
+
+.signature {
+    margin-top: 2rem;
+    margin-bottom: 50px;
+}
+
+/* Notre programme */
+#flex-cards{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+.card img{
+    width: 200px;
+    margin: 20px auto;
+}
+.card h3{
+    height: 200px;
+    margin: 10px;
+    padding: 30px 10px;
+    background-color: #f0f0f0;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color:darkblue
+}
+.card p{
+    max-width: 250px;
+    color:darkblue;
+    margin: 20px auto;
+    font-size: 1.8rem;
+}
+#prog-footer{
+    background-color: #f0f0f0; 
+    padding: 10px;
+    border: 2px solid #aaa;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+}
+#page-soutien img{
+    width: 100%;
+}
+
+.toggle-button {
+    width: 100%;
+}
+
+#googleform{
+    width: 100%;
+    height: 1300px;
+}
+.additional-text{
+    display: none;
+}
+
+#finpage {
+    margin: 100px;
+}
+@media (max-width: 768px) {
+    .logo {
+        font-size: 2.5rem;
+    }
+
+    .header-pc img{
+        display: none;
+    }
+    .header {
+        display: block;
+        background-image: url("../img/rejoice/bande.webp");
+        background-size: cover;
+        background-position: center;
+        padding: 2rem;
+        text-align: center;
+        color: #fff;
+        position: relative;
+    }
+    .mission-title {
+        font-size: 1.4rem;
+    }
+    .header img{
+        width: 50%;
+    }
+    .quote{
+        color: white;
+        background: rgba(255, 255, 255, 0.1);
+        font-size: large;
+    }
+    .quote-author{
+        font-size: small;
+    }
+    .profile-image {
+        float: none;
+        display: block;
+        margin: 1rem auto;
+    }
+
+    .content {
+        padding: 1rem;
+    }
+    .card h3{
+        height: 150px;
+        font-size: 1.2rem;
+        max-width: 300px;
+        margin: 10px auto;
+    }
+    .card img{
+        width: 150px;
+    }
+    .card p{
+        padding: 10px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 2rem;
+    }
+
+    .quote {
+        font-size: 0.9rem;
+    }
+
+    .mission-title {
+        font-size: 1.2rem;
+    }
+}
