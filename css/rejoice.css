@@ -74,16 +74,21 @@ h1 {
 }
 
 .decorative-sidebar {
-    width: 120px;
-    
+    width: 200px;
+    padding-top: 72px;
 }
 #photo_lp {
-    width: 160px;
-    height: 200px;
+    width: 200px;
+    height: 260px;
+    object-fit: cover;
+}
+#bande-right{
+    width: 200px;
     object-fit: cover;
 }
 .biography {
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
+    margin-top: 40px;
 }
 
 .profile-image {
@@ -96,7 +101,7 @@ h1 {
 .highlight {
     background: #f0f0f0;
     padding: 1rem;
-    margin: 1rem 0;
+    margin: 4rem 0;
 }
 
 .engagement {
@@ -198,6 +203,18 @@ h1 {
         text-align: center;
         color: #fff;
         position: relative;
+    }
+    .decorative-sidebar {
+        display: none;
+    }
+    #photo_lp {
+        width: 200px;
+        height: 260px;
+        object-fit: cover;
+    }
+    #bande-right{
+        width: 200px;
+        object-fit: cover;
     }
     .mission-title {
         font-size: 1.4rem;
