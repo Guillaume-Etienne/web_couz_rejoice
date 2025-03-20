@@ -221,6 +221,7 @@ h1 {
     }
     .header img{
         width: 50%;
+        box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7);
     }
     .quote{
         color: white;
