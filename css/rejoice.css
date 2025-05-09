@@ -196,13 +196,16 @@ h1 {
     }
     .header {
         display: block;
-        background-image: url("../img/rejoice/bande.webp");
+        background-image: url("../img/rejoice/prog-aide-site-mini.webp");
         background-size: cover;
         background-position: center;
-        padding: 2rem;
+        padding: 3rem;
         text-align: center;
         color: #fff;
         position: relative;
+    }
+    .header h2 {
+        display: none;
     }
     .decorative-sidebar {
         display: none;
