@@ -1,5 +1,4 @@
-# web_Casa_du_Ventoux
-Website for a french Guest House.
-SASS, HTML, JS technoligies involved
+# Web Couz Rejoice
+Pur HTML CSS, même pas de Saas, JS au minimum de chez minium, et ça envoie !
 
 # web_couz

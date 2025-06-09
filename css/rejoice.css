@@ -207,6 +207,10 @@ h1 {
         color: #fff;
         position: relative;
     }
+    #header1{
+        background-image: none;
+        background-color: grey
+    }
     .header h2 {
         display: none;
     }
