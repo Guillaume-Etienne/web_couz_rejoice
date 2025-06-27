@@ -219,7 +219,7 @@ h1 {
     .header-pc img{
         display: none;
     }
-    .header {
+    /* .header {
         display: block;
         background-image: url("../img/rejoice/prog-aide-site-mini.webp");
         background-size: cover;
@@ -228,13 +228,24 @@ h1 {
         text-align: center;
         color: #fff;
         position: relative;
-    }
+    } */
     #header1{
         background-image: none;
         background-color: grey
     }
-    .header h2 {
-        display: none;
+
+    #header1 img{
+        margin: 50px 60px;
+        
+    }
+    .header{
+        display: block;
+    }
+    .header h2{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        margin : 20px;
+        color: lightseagreen;
     }
     .decorative-sidebar {
         display: none;
