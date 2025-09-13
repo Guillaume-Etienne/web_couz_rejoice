@@ -45,6 +45,9 @@ h1 {
 .header{
     display: none;
 }
+.title-mobile{
+    display: none;
+}
 
 .logo {
     font-size: 3.5rem;
@@ -212,6 +215,9 @@ h1 {
     margin: 100px;
 }
 @media (max-width: 768px) {
+    * {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
     .logo {
         font-size: 2.5rem;
     }
@@ -219,16 +225,7 @@ h1 {
     .header-pc img{
         display: none;
     }
-    /* .header {
-        display: block;
-        background-image: url("../img/rejoice/prog-aide-site-mini.webp");
-        background-size: cover;
-        background-position: center;
-        padding: 3rem;
-        text-align: center;
-        color: #fff;
-        position: relative;
-    } */
+
     #header1{
         background-image: none;
         background-color: grey
@@ -238,9 +235,9 @@ h1 {
         margin: 50px 60px;
         
     }
-    .header{
+    /* .header{
         display: block;
-    }
+    } */
     .header h2{
         font-size: 2rem;
         margin-bottom: 1rem;
@@ -282,7 +279,59 @@ h1 {
 
     .content {
         padding: 1rem;
+        position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-origin: padding-box;
+        background-clip: border-box;
+        
     }
+/* pour image faible opacité en background*/
+    .content::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("../img/rejoice/bande-right.webp");
+        background-size: cover;
+        opacity: 0.2; /* Applique l'opacité seulement à l'image */
+        z-index: -1; /* Place l'image de fond en dessous du contenu */
+    }
+    .title-mobile{
+        display: block;
+        margin: 0;
+    }
+    .title-mobile img{
+        width: 100%;
+        height: auto;
+    }
+    #prog-footer{
+        display: none;
+    }
+    #page-soutien{
+        display: none;
+    }
+
+    .highlight {
+        background: none;
+        font-family: 'arial', sans-serif;
+        margin: -40px 0 10px 0;
+        padding: 0 0 10px 0;
+        color: darkgoldenrod;
+    }
+    .highlight p{
+        background: none;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .engagement {
+    color: darkgoldenrod;
+    }
+    
+
     .card h3{
         height: 150px;
         font-size: 1.2rem;
