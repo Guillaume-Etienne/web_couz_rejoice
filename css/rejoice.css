@@ -244,6 +244,17 @@ h1 {
         margin : 20px;
         color: lightseagreen;
     }
+    #header0{
+        display: block;
+    }
+    #title_rejoice_mobile{
+        margin: 20px;
+        width: 100%;
+    }
+    #photo_lp_mobile{
+        margin : 0 10px 30px 55%;
+        
+    }
     .decorative-sidebar {
         display: none;
     }
@@ -264,7 +275,7 @@ h1 {
         box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7);
     }
     .quote{
-        color: white;
+        /* color: white; */
         background: rgba(255, 255, 255, 0.1);
         font-size: large;
     }
@@ -318,10 +329,15 @@ h1 {
 
     .highlight {
         background: none;
-        font-family: 'arial', sans-serif;
+        font-family: Cambria,'arial', sans-serif;
         margin: -40px 0 10px 0;
         padding: 0 0 10px 0;
         color: darkgoldenrod;
+        font-weight: bold;
+        font-style: italic;
+}
+
+
     }
     .highlight p{
         background: none;
